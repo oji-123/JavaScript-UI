@@ -12,8 +12,16 @@
   text-decoration: none;
   border-radius: 5px 5px 0 0;
 }
+
+.tab-nav-item.is-active{
+  background-color: #000;
+  color: #fff;
+}
+
 .tab-contents {
   border: 1px solid #ccc;
   padding: 20px;
 }
-.tab-contents-item {}
+.tab-contents-item {
+  display: none;
+}
