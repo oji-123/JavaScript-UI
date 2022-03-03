@@ -6,7 +6,7 @@ let tab = () => {
   const ACTIVE_CLASS = "is-active";
   const navLen = $nav.length;
 
-  //　初期化
+  // 初期化
   const init = () => {
     $content[0].style.display = "block";
   }
